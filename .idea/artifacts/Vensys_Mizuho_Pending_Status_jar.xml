@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Vensys-Mizuho-Pending-Status:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Vensys_Mizuho_Pending_Status_jar</output-path>
+    <root id="archive" name="Vensys-Mizuho-Pending-Status.jar">
+      <element id="module-output" name="Vensys-MX-MT-Validation-Costume" />
+    </root>
+  </artifact>
+</component>
