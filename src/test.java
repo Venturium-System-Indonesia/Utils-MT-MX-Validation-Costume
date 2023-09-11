@@ -1,4 +1,5 @@
 import vensys.CheckFalsePositiveCollon;
+import vensys.CheckRealTruncate;
 
 public class test {
     public static String translateSpecialCharactersFullStop(String source) {
@@ -30,6 +31,6 @@ public class test {
                 ":71A:OUR\n" +
                 "-}{5:{MAC:00000000}{CHK:63CBC9C6E8A9}{TNG:}}{S:{SAC:}{COP:P}}";
 
-        System.out.println(CheckFalsePositiveCollon.ReplaceTheFirstCollonWithFullStop(mt));
+        System.out.println(CheckRealTruncate.IsRealTruncateOnString(mt));
     }
 }

@@ -7,7 +7,7 @@ public class CheckRealTruncate {
 
     public static boolean IsRealTruncate(String mt){
         String regex1 = "^:.{0,3}:.{34}\\+\\n(?!:)";
-        String regex2 = "^(?!):.{34}\\+\\n:";
+        String regex2 = "^(?!:).{34}\\+\\n:";
         String regex3 = "^(?!:).{34}\\+\\n(?!:)";
         String regex4 = "^:.{0,3}:.{15}\\+\\n:";
 
@@ -19,7 +19,7 @@ public class CheckRealTruncate {
 
         String allRegex = regex1+"|"+regex2+"|"+regex3+"|"+regex4+"|"+regex5+"|"+regex6+"|"+regex7+"|"+regex8;
 
-        System.out.println(allRegex);
+//        System.out.println(allRegex);
 
         Pattern pattern = Pattern.compile(allRegex, Pattern.MULTILINE);
         Matcher matcher = pattern.matcher(mt);
